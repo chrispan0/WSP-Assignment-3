@@ -2,7 +2,7 @@
     <div class="container-fluid">
       <a class="navbar-brand" href="/">
         <img src="/Content/favicon.svg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-        CJB Support
+        Chris's To-Do List
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -10,7 +10,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <% if(title=="CJB Support") { %>
+            <% if(title=="Chris's To-Do List") { %>
                 <a class="nav-link active" href="/">
              <% } else { %>     
               <a class="nav-link" href="/">
@@ -18,7 +18,7 @@
               <i class="fa-solid fa-house"></i> Home</a>
           </li>
           <li class="nav-item">
-            <% if(title=="Ticket Editor") { %>
+            <% if(title=="Task Creator") { %>
               <a class="nav-link active" href="/editor">
             <% } else { %>  
               <a class="nav-link" href="/editor">
@@ -26,7 +26,7 @@
               <i class="fa-solid fa-plus"></i> Create</a>
           </li>
           <li class="nav-item">
-            <% if(title=="Manage Tickets") { %>
+            <% if(title=="Manage task") { %>
             <a class="nav-link active" href="/manage">
             <% } else { %>  
             <a class="nav-link" href="/manage"> 
