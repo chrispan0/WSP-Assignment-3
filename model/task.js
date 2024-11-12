@@ -1,9 +1,7 @@
-// MVC --> Model , View , Controller (Routers)
 let mongoose = require("mongoose");
-// create a model class
-let taskModel = new mongoose.Schema({
+let taskSchema = new mongoose.Schema({
   task: String,
   notes: String,
   duedate: String,
 });
-module.exports = mongoose.model("task", taskModel);
+module.exports = mongoose.model("Task", taskSchema);

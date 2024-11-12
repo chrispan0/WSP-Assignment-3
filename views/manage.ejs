@@ -26,14 +26,14 @@
       <table class="table table-bordered table-striped table-hover">
         <tr class="d-flex">
           <th class="col-2">Task</th>
-          <th class="col-2">Notes</th>
+          <th class="col-4">Notes</th>
           <th class="col-4">Due Date</th>
           <th class="text-center col-2"></th>
         </tr>
         <% for(let count = 0; count < task_list.length; count++) { %>
         <tr class="d-flex">
           <td class="col-2"><%= task_list[count].task %></td>
-          <td class="col-2"><%= task_list[count].notes %></td>
+          <td class="col-4"><%= task_list[count].notes %></td>
           <td class="col-4"><%= task_list[count].duedate %></td>
           <td class="text-center col-2">
             <div class="btn-group">
